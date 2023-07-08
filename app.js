@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const date = require(__dirname+"/date.js")
+const port = process.env.PORT || 3000
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
@@ -33,6 +34,6 @@ res.render("list", {newListItems: work_items, listTitle: "work list"});
 });
 
 
-app.listen(3000, function(req, res) {
+app.listen(port, function(req, res) {
   console.log("port 3000 is listening to the requests");
 });

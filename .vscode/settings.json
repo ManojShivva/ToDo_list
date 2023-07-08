@@ -1,4 +1,0 @@
-{
-    "appService.defaultWebAppToDeploy": "/subscriptions/76dd63db-24fa-441a-b38c-b0f8542fd6a0/resourceGroups/test-grp/providers/Microsoft.Web/sites/Secrets8",
-    "appService.deploySubpath": "."
-}
