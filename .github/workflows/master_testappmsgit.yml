@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'testappmsgit'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1877BAC3818E46C4A0EE0632EE7A717D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FEBDEEC9B400444894AA938481924EB7 }}
           package: .
